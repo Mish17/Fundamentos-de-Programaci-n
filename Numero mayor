@@ -1,0 +1,28 @@
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main() // si tengo void elimino el return
+{
+    int numero1, numero2, numero3; //declarar variables
+    cout<<"ingrese el numero 1: "<<endl;
+    cin>>numero1;
+    cout<<"ingrese el numero 2: "<<endl;
+    cin>>numero2;
+    cout<<"ingrese el numero 3: "<<endl;
+    cin>>numero3;
+    if (numero1>=numero2)
+    if (numero1>=numero3)
+    cout<<"El mayor es: " <<numero1<<endl;
+    else
+    cout<<"El mayor es: " <<numero3<<endl;
+    else
+    if(numero2>=numero3)
+    cout<<"El mayor es: " <<numero2<<endl;
+    else
+    cout<<"El mayor es: "<<numero3<<endl;
+    
+    getch();
+    return 0;
+}
